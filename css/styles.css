@@ -6,7 +6,26 @@
     margin-top: 250px;
     border-radius: 25px;
 }
-
+.alma{
+    background-image: url("../img/panaderia.pg.jpeg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 150px;
+}
+.alma h2{
+    color: white;
+    background-color: rgba(153, 16, 16, 0.616);
+    padding-inline: 10px;
+}
+.alma p{
+    color: wheat;
+    background-color: rgba(195, 65, 26, 0.668);
+    text-align: center;
+}
 .card{
  display: block;
 }
