@@ -6,6 +6,19 @@
     margin-top: 250px;
     border-radius: 25px;
 }
+.rosa{
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+}
+
+.card{
+    border: 2px solid red;
+    margin-top: 10px;
+    padding: 6px;
+    position: relative;
+    left: 65px;
+}
 .alma{
     background-image: url("../img/panaderia.pg.jpeg");
     height: 80vh;
@@ -14,12 +27,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-inline: 150px;
+    
 }
 .alma h2{
     color: white;
     background-color: rgba(153, 16, 16, 0.616);
-    padding-inline: 10px;
+    
 }
 .alma p{
     color: wheat;
@@ -37,38 +50,9 @@
     text-align: center;
 }
 
-.grid{
-    padding: 100px;
-    height: 75vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-    "hola  mundo"
-    "nonu  papa";
-}
-.mudo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.hola{
-    background-color: gray;
-    grid-area: hola;
-}
-.mundo{
-    background-color: gainsboro;
-    grid-area: mundo;
-}
-.nonu{
-    background-color: gainsboro;
-    grid-area: nonu;
-}
-.papa{
-    background-color: gray;
-    grid-area: papa;
-}
-
 @media (max-width: 1000px){
+
+}
     .hola{
     background-color: pink;
  }
@@ -80,6 +64,41 @@
     "mundo"
     "nonu"
     "papa";
- }
+    }
+.grid{
+      padding: 100px;
+      height: 75vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: 
+      "hola  mundo"
+      "nonu  papa";
+
 }
+      
+.mudo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .hola{
+        background-color: gray;
+        grid-area: hola;
+        }
+.mundo{
+            background-color: gainsboro;
+            grid-area: mundo;
+        }
+        .nonu{
+            background-color: gainsboro;
+            grid-area: nonu;
+        }
+       .papa{
+            background-color: gray;
+            grid-area: papa;
+        }
+   
+  
+
+
 

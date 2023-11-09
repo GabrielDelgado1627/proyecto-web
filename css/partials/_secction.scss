@@ -1,0 +1,31 @@
+.rubio {
+    border: 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 7% 15% 3% 15%;
+    background-color: bisque;
+  }
+ 
+.alma{
+    background-image: url("../img/panaderia.pg.jpeg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    .alma h2{
+        color: white;
+        background-color: $backcolor;
+        
+    }
+    .alma p{
+        color: wheat;
+        background-color: rgba(195, 65, 26, 0.668);
+        text-align: center;
+    }
+}

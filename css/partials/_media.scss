@@ -1,0 +1,47 @@
+@media (max-width: 1000px){ 
+}
+    .hola{
+    background-color: pink;
+ }
+ .papa{ 
+    background-color: pink;
+}
+ .grid{
+    grid-template-areas: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "hola"
+    "mundo"
+    "nonu"
+    "papa";
+    }
+    .grid{
+      padding: 100px;
+      height: 75vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: 
+      "hola  mundo"
+      "nonu  papa";
+      
+      .mudo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .hola{
+        background-color: gray;
+        grid-area: hola;
+        }
+       .mundo{
+            background-color: gainsboro;
+            grid-area: mundo;
+        }
+        .nonu{
+            background-color: gainsboro;
+            grid-area: nonu;
+        }
+       .papa{
+        background-color: gray;
+        grid-area: papa;
+        }
+    }  

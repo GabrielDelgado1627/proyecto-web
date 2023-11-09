@@ -1,0 +1,106 @@
+.rubio {
+  border: 50px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 7% 15% 3% 15%;
+  background-color: bisque;
+}
+
+.alma {
+  background-image: url("../img/panaderia.pg.jpeg");
+  height: 80vh;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.alma .alma h2 {
+  color: white;
+  background-color: rgba(153, 16, 16, 0.616);
+}
+.alma .alma p {
+  color: wheat;
+  background-color: rgba(195, 65, 26, 0.668);
+  text-align: center;
+}
+
+.hero {
+  padding-right: 150px;
+}
+
+.text-white {
+  margin-top: 250px;
+  border-radius: 25px;
+}
+
+.rosa {
+  display: flex;
+  flex-direction: column;
+  min-width: 100vh;
+}
+
+.card {
+  border: 2px solid red;
+  margin-top: 10px;
+  padding: 6px;
+  position: relative;
+  left: 65px;
+}
+
+.card {
+  display: block;
+}
+
+.boton {
+  font-size: 1rem;
+  background-color: rgb(183, 14, 14);
+  padding: 0.5rem;
+  color: white;
+  text-align: center;
+}
+
+.hola {
+  background-color: pink;
+}
+
+.papa {
+  background-color: pink;
+}
+
+.grid {
+  grid-template-areas: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "hola" "mundo" "nonu" "papa";
+}
+
+.grid {
+  padding: 100px;
+  height: 75vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "hola  mundo" "nonu  papa";
+}
+.grid .mudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid .hola {
+  background-color: gray;
+  grid-area: hola;
+}
+.grid .mundo {
+  background-color: gainsboro;
+  grid-area: mundo;
+}
+.grid .nonu {
+  background-color: gainsboro;
+  grid-area: nonu;
+}
+.grid .papa {
+  background-color: gray;
+  grid-area: papa;
+}/*# sourceMappingURL=estilos.css.map */
